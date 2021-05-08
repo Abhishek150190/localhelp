@@ -1,0 +1,27 @@
+@import url("../../global.css");
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  background-color: var(--background-light);
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 30%;
+  justify-content: space-evenly;
+}
+
+.nav-brand {
+  font-family: var(--global-font-bold);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.nav-items {
+  color: var(--secondary-color);
+}

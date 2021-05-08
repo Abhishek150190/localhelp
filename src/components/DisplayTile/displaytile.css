@@ -1,0 +1,32 @@
+.reverse {
+  flex-direction: row-reverse;
+}
+.tile-container {
+  margin: 1%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tile-graphic > img {
+  width: 70%;
+}
+.tile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.content-heading {
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+}
+.content-description {
+  text-align: center;
+  color: var(--text-color);
+  line-height: 3rem;
+}

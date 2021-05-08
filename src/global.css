@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "BeVietnamRegular";
+  src: local("BeVietnam-Regular"), url("./assets/fonts/BeVietnam-Regular.ttf"), format("ttf");
+}
+@font-face {
+  font-family: "BeVietnamSemiBold";
+  src: local("BeVietnam-Semi-Bold"), url("./assets/fonts/BeVietnam-SemiBold.ttf"), format("ttf");
+}
+:root {
+  --global-font: BeVietmanRegular, sans-serif;
+  --global-font-bold: BeVietmanSemibold, sans-serif;
+  --primary-color: #dfb147;
+  --secondary-color: #c2dfff;
+  --background-light: #6c63ff;
+  --text-color: #6c63ff;
+}
