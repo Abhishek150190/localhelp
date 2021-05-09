@@ -15,7 +15,6 @@ export const HomePage = () => {
 
       <div className="display-tiles">
         <DisplayTile image={foodSVG} heading="Food" description={sampText} />
-        <DisplayTile image={foodSVG} heading="Food" description={sampText} />
       </div>
       
     </>
