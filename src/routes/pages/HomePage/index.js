@@ -9,7 +9,7 @@ export const HomePage = () => {
   return (
     <>
       <div className="banner-image">
-        <img src={bannerSVG} alt="" srcset="" />
+        <img src={bannerSVG} alt="Homepage Banner" />
       </div>
       <div className="heading brand">We are here to help</div>
 

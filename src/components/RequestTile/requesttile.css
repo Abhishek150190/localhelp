@@ -1,0 +1,26 @@
+.request-container {
+  display: flex;
+  padding: 2%;
+  margin: 1%;
+  justify-content: space-around;
+  background-color: var(--background-overlay);
+}
+.requester-detail {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.request-type {
+  font-weight: 800;
+  font-size: larger;
+  color: var(--text-color);
+}
+.request-address {
+  font-weight: 500;
+  color: var(--text-color-secondary);
+}
+.request-fulfill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

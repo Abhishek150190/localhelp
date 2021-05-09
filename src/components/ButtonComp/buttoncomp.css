@@ -1,0 +1,15 @@
+button:hover {
+  cursor: pointer;
+}
+.help {
+  margin: 2%;
+  padding: 10%;
+  border-radius: 100%;
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--help-color);
+  border: none;
+  color: var(--text-color-secondary);
+  font-weight: 700;
+  font-size: larger;
+}

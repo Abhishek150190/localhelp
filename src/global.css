@@ -11,6 +11,9 @@
   --global-font-bold: BeVietmanSemibold, sans-serif;
   --primary-color: #dfb147;
   --secondary-color: #c2dfff;
+  --help-color: rgb(16, 197, 16);
   --background-light: #6c63ff;
+  --background-overlay: #847fdd31;
   --text-color: #6c63ff;
+  --text-color-secondary: #745716;
 }

@@ -14,6 +14,11 @@ export const Navbar = () => {
         </div>
         <ul className="nav-links">
           <li>
+            <a className="nav-items" href="#stats">
+              stats
+            </a>
+          </li>
+          <li>
             <a className="nav-items" href="/feeds">
               feeds
             </a>
