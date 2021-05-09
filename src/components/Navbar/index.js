@@ -1,9 +1,32 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+import { LinkItem } from "../LinkItem";
 
 import "./navbar.css";
 
 export const Navbar = () => {
+  const links = [
+    {
+      name: 'stats',
+      link: '/stats',
+      id: 'stats',
+    },
+    {
+      name: 'feeds',
+      link: '/feeds',
+      id: 'feeds',
+    },
+    {
+      name: 'help',
+      link: '/help',
+      id: 'help',
+    },
+    {
+      name: 'support',
+      link: '/support',
+      id: 'support',
+    }
+  ]
   return (
     <nav className="navbar-container">
       <Router>
@@ -13,26 +36,10 @@ export const Navbar = () => {
           </a>
         </div>
         <ul className="nav-links">
-          <li>
-            <a className="nav-items" href="/stats">
-              stats
-            </a>
-          </li>
-          <li>
-            <a className="nav-items" href="/feeds">
-              feeds
-            </a>
-          </li>
-          <li>
-            <a className="nav-items" href="/help">
-              help
-            </a>
-          </li>
-          <li>
-            <a className="nav-items" href="/support">
-              support
-            </a>
-          </li>
+          {
+            links.map((linkItem)  => <LinkItem linkItem={linkItem}/>  
+            )
+          }
         </ul>
       </Router>
     </nav>

@@ -1,6 +1,6 @@
 import React from "react";
-import helpSVG from "../../../assets/svg/undrawHelpful.svg";
-import { RequestTile } from "../../../components";
+import helpSVG from "../../assets/svg/undrawHelpful.svg";
+import { RequestTile } from "../../components";
 
 export const FeedsPage = () => {
   return (

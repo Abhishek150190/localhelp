@@ -1,8 +1,8 @@
 import React from "react";
 
 import "./statspage.css";
-import dashboardSVG from "../../../assets/svg/undrawDashboard.svg";
-import { CaseCard } from "../../../components";
+import dashboardSVG from "../../assets/svg/undrawDashboard.svg";
+import { CaseCard } from "../../components";
 export const StatsPage = () => {
   return (
     <>
