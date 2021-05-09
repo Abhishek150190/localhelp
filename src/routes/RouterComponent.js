@@ -1,11 +1,15 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { HomePage, LostComponent, HelpPage, SupportPage, FeedsPage } from "./pages";
+import { HomePage, LostComponent, HelpPage, SupportPage, FeedsPage, StatsPage } from "./pages";
 
 // Define Routes here
 export const Routes = [
   {
     name: "/",
     component: <HomePage />,
+  },
+  {
+    name: "/stats",
+    component: <StatsPage />,
   },
   {
     name: "/help",

@@ -1,0 +1,7 @@
+.dashboard-container {
+  margin: 2%;
+}
+.card-row {
+  display: flex;
+  justify-content: space-around;
+}
