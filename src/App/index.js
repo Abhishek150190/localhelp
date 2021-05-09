@@ -1,5 +1,5 @@
-import RouterComponent from "../../routes/RouterComponent";
-import { Navbar } from "../Navbar";
+import RouterComponent from "../routes/RouterComponent";
+import { Navbar } from "../components";
 import "./App.css";
 
 export const App = () => {
